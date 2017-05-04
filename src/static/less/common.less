@@ -1,0 +1,77 @@
+body {
+  font-family: PingFangSC-Regular;
+}
+
+/**
+  弹窗样式重写
+ */
+.mint-msgbox {
+  width: 72%;
+  background: #FFFFFF;
+  border-radius: 0.16rem;
+
+  .mint-msgbox-content {
+    padding: 0.48rem;
+    border-bottom: 1px solid #ddd;
+    min-height: 0.36rem;
+    position: relative;
+
+    .mint-msgbox-message {
+      margin: 0;
+      text-align: center;
+      font-size: 0.3rem;
+      color: #424242;
+      letter-spacing: 1px;
+      line-height: 0.46rem;
+    }
+  }
+
+  .mint-msgbox-cancel, .mint-msgbox-cancel:active, .mint-msgbox-confirm, .mint-msgbox-confirm:active {
+    font-size: 0.3rem;
+    color: #FF8200;
+  }
+}
+
+input:disabled {
+  background-color: #fff;
+}
+
+/**
+  创建修改优惠页面popup样式重写
+ */
+.mint-popup-4 {
+  width: 100% !important;
+}
+
+.mint-popup-4 .picker-slot-wrapper,
+.mint-popup-4 .picker-item {
+  backface-visibility: hidden !important;
+}
+
+.mint-popup-fail {
+  width: 100%;
+  height: .8rem;
+  background: rgba(254, 56, 36, 0.90);
+  letter-spacing: .006rem;
+  font-size: .26rem;
+  color: #fff;
+  text-align: center;
+  line-height: .8rem;
+}
+
+.mint-popup-success {
+  width: 100%;
+  height: .8rem;
+  background: rgba(68, 219, 94, 0.90);
+  letter-spacing: .006rem;
+  font-size: .26rem;
+  color: #fff;
+  text-align: center;
+  line-height: .8rem;
+}
+
+.mint-datetime-action {
+  font-size: .3rem;
+  color: #FF8200;
+  letter-spacing: 0.8px;
+}
