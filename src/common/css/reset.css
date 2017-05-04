@@ -1,0 +1,118 @@
+html {
+    font-family: PingFangSC-Regular, "San Fransico", "Microsoft YaHei", "Heiti", "DroidSans", "DroidSansFallback", "Helvetica Neue", Helvetica, "STHeiTi", Arial, sans-serif;
+    background: #F4F5F7;
+    width: 100%;
+    height: 100%;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-bottom: 1.2rem;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #BDBDBD;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #BDBDBD;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #BDBDBD;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #BDBDBD;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+    -webkit-margin-before: 0rem !important;
+    -webkit-margin-after: 0rem !important;
+    -webkit-padding-start: 0rem !important;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+}
